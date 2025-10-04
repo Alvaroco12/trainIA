@@ -1,6 +1,6 @@
 import numpy as np
 from keras.datasets import mnist
-from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 
 class CargadorDatos:
     def __init__(self):
