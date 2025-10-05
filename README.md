@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 python main.py
 
-Notas importantes:
+## Notas importantes:
 
 Asegúrate de que la imagen siga las especificaciones de tamaño y pincel indicadas.
 
