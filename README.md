@@ -20,7 +20,7 @@ Este proyecto implementa una red neuronal para reconocer dígitos escritos a man
 | `cargador_datos.py` | Clase `CargadorDatos` para cargar y preprocesar el dataset MNIST. Normaliza los datos y convierte etiquetas a one-hot. |
 | `constructor_modelo.py` | Clase `ConstructorModelo` que define la arquitectura de la red neuronal, la compila y la entrena. |
 | `evaluador.py` | Clase `Evaluador` que calcula precisión, matriz de confusión y reporte de clasificación. |
-| `prueba.py` | Permite probar una imagen externa (`mi_numero.png`) y ver qué número predice la IA. Convierte la imagen a escala de grises, la normaliza y la redimensiona a 28x28. |
+| `prueba.py` | Permite ver qué imagen se le da a la IA. Convierte la imagen a escala de grises, la normaliza y la redimensiona a 28x28. |
 
 ---
 
