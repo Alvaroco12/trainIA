@@ -46,7 +46,6 @@ git clone https://github.com/Alvaroco12/trainIA.git
 
 python -m venv .venv
 .venv\Scripts\activate  # Windows
-# o
 source .venv/bin/activate  # macOS / Linux
 
 3. Instalar dependencias:
@@ -57,7 +56,8 @@ pip install -r requirements.txt
 
 python main.py
 
-Notas importantes
+Notas importantes:
+
 Asegúrate de que la imagen siga las especificaciones de tamaño y pincel indicadas.
 
 La red neuronal funciona mejor con imágenes centradas y números de alto contraste.
