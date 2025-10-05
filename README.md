@@ -40,32 +40,22 @@ Para probar la IA con un número hecho a mano:
 
 1. Clonar el repositorio:
 
-```bash
 git clone https://github.com/Alvaroco12/trainIA.git
-Crear y activar un entorno virtual:
 
-bash
-Copiar código
+2. Crear y activar un entorno virtual:
+
 python -m venv .venv
 .venv\Scripts\activate  # Windows
 # o
 source .venv/bin/activate  # macOS / Linux
-Instalar dependencias:
 
-bash
-Copiar código
+3. Instalar dependencias:
+
 pip install -r requirements.txt
-Ejecutar main.py para entrenar y evaluar el modelo:
 
-bash
-Copiar código
+4. Ejecutar main.py para entrenar y evaluar el modelo:
+
 python main.py
-Probar tu imagen externa:
-
-bash
-Copiar código
-python prueba.py
-Se mostrará la imagen y el número predicho por la IA.
 
 Notas importantes
 Asegúrate de que la imagen siga las especificaciones de tamaño y pincel indicadas.
