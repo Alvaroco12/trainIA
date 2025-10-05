@@ -44,8 +44,13 @@ git clone https://github.com/Alvaroco12/trainIA.git
 
 2. Crear y activar un entorno virtual:
 
-python -m venv .venv
+py -3.10 -m venv .venv
+
 .venv\Scripts\activate  # Windows
+
+
+python -m venv .venv
+
 source .venv/bin/activate  # macOS / Linux
 
 3. Instalar dependencias:
